@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+body{
+    text-align: center;
+    background-color: hsl(0, 100%, 74%);
+    margin: auto;
+    width: 100%;
+    font-size: 16px;
+    background-image: url("images/bg-intro-mobile.png");
+}
+h1, p{
+    color: whitesmoke;
+}
+h1{
+    font-weight: 900;
+    margin-top: 65px;
+}
+p{
+    font-weight: 500;
+}
+header{
+    padding-top: 60px;
+}
+.trail-btn{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background:hsl(248, 32%, 49%);
+    color: whitesmoke;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 97%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.trail-btn:hover{
+    background: #fff;
+    color:hsl(248, 32%, 49%);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}   
+.main-form{
+    margin: auto;
+    width: 90%
+}
+.form{
+    border-radius: 10px;
+    background: whitesmoke;
+    width: 97%;
+    padding-top: 10px;
+}
+input{
+    display: block;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    width: 80%;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+.submit-btn{
+    background: hsl(154, 59%, 51%);
+    width: 93%;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+}
+.submit-btn:hover{
+    background: #fff;
+    color: hsl(154, 59%, 51%);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    border: 1px solid hsl(154, 59%, 51%);
+}
+.ts-cs{
+    color:hsl(246, 25%, 77%);
+
+}
+span{
+    color:hsl(0, 100%, 74%);
+}
+  
+@media(min-width: 750px){
+    body{
+        display: flex;
+    }
+    h1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .intro{
+        width: 100%;
+        padding: 150px;
+    }
+    .main-form{
+        width: 90%;
+        padding-right: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .trial-btn{
+        padding: 30px;
+    }
+    footer{
+        display: none;
+    }
+    
+
+}
