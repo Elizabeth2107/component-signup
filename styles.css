@@ -32,7 +32,7 @@ header{
     padding: 20px;
     border: none;
     border-radius: 10px;
-    width: 97%;
+    width: 100%;
     margin-bottom: 20px;
     margin-top: 50px;
 }
@@ -49,7 +49,7 @@ header{
 .form{
     border-radius: 10px;
     background: whitesmoke;
-    width: 97%;
+    width: 100%;
     padding-top: 10px;
 }
 input{
@@ -65,7 +65,7 @@ input{
 }
 .submit-btn{
     background: hsl(154, 59%, 51%);
-    width: 93%;
+    width: 80%;
     border: none;
     border-radius: 10px;
     padding: 25px;
@@ -80,6 +80,7 @@ input{
     cursor: pointer;
     transition: all 200ms ease-in-out;
     border: 1px solid hsl(154, 59%, 51%);
+    
 }
 .ts-cs{
     color:hsl(246, 25%, 77%);
@@ -89,7 +90,7 @@ span{
     color:hsl(0, 100%, 74%);
 }
   
-@media(min-width: 750px){
+@media(min-width: 900px){
     body{
         display: flex;
     }
